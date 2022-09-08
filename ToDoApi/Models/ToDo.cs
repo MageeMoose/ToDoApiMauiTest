@@ -7,6 +7,6 @@ namespace ToDoApi.Models
         [Key]
         public int Id { get; set; }
         public string? ToDoName { get; set; }
-
+        public int MyProperty { get; set; }
     }
 }
